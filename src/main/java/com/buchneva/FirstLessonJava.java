@@ -44,6 +44,8 @@ public class FirstLessonJava {
 
                 System.out.println(result);
 
+            } else if (action.isEmpty()) {
+                break;
             } else {
                 System.out.println("You entered an invalid operator. Please, inter \"+\" or \"-\" or \"*\" or \"/\"");
             }
